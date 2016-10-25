@@ -1,4 +1,5 @@
 import 'package:angular2/core.dart';
+
 import 'name_service.dart';
 
 @Component(
@@ -30,7 +31,7 @@ class BadgeComponent implements OnInit{
     setBadgeName(inputName);
 
     if(inputName.trim().isEmpty){
-      buttonText = 'Aye! Gimme a name';
+      buttonText = 'TEST COMMIT';
       isButtonEnabled = true;
     }else{
       buttonText = 'Type yer name!';
